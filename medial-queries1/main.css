@@ -1,3 +1,58 @@
 body {
-  background: blanchedalmond;
+  background: rgb(255, 235, 205);
+  margin: 0px;
+  text-align: center;
+  }
+
+
+
+.container{
+  display:flex
+  justify-content: center;
+  padding: 40px;
+
 }
+
+section {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+
+  
+}
+
+h1{
+  font-size: 2em;
+  margin-left: 0px;
+}
+
+.header-A {
+  background: white;
+  border: 2px solid black;
+  line-height: 171px;
+  flex-grow: 2;
+  
+
+}
+
+.header-B {
+  background: white;
+  border: 2px solid black;
+  line-height: 800px;
+}
+
+.header-C {
+  background: white;
+  border: 2px solid black;
+  line-height: 175px;
+}
+  
+@media (min-width:600px){
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  } 
