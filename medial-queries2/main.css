@@ -1,3 +1,88 @@
 body {
   background: papayawhip;
+  margin: 100px; 
 }
+
+div{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 6;
+  justify-content: center;
+  
+}
+
+main{
+  display: flex;
+  flex-grow:0;
+}
+
+
+
+.a{
+  background: whitesmoke;
+  border: 2px solid black;
+  margin: 20px;
+  height: 100px;
+  text-align: center;
+}
+
+.b{
+  background: green;
+  
+  margin: 15px;
+  height: 100px;
+  text-align: center;
+  color: white;
+}
+
+.c{
+  background: whitesmoke;
+  border: 2px solid black;
+  margin: 15px;
+  height: 150px;
+  width:100px;
+  text-align: center;
+  
+
+}
+
+.d{
+  display: flex;
+  background: whitesmoke;
+  border: 2px solid black;
+  margin: 15px;
+  height: 150px;
+  width: 100px;
+  text-align: center;
+  
+ 
+}
+
+.e{
+  background: whitesmoke;
+  border: 2px solid black;
+  margin: 15px;
+  height: 150px;
+  width: 100px;
+  text-align: center;
+}
+
+.f{
+  background: whitesmoke;
+  border: 2px solid black;
+  margin: 15px;
+  height: 100px;
+  text-align: center;
+}
+
+@media (min-width:600px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 150;
+  }
+}
+
+  
