@@ -11,6 +11,7 @@ body {
     
 
 .a{
+  
   text-align: center;
   border: 2px solid black;
   border-radius: 3px;
@@ -47,6 +48,7 @@ body {
       align-items: center;
       text-align: center;
       width: 100%;
+      background-color: blueviolet;
     
     }
      
@@ -56,6 +58,7 @@ body {
     width: 142%;
     align-items: center;
     flex-direction: column;
+    background-color: blue;
 
   
    }
